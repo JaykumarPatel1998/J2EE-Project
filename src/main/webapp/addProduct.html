@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<header>
+            <h1>
+            <a class="header" href="adminPanel.html">ADMIN</a>
+            </h1>
+        </header>
+<h1>Add Product</h1>
+    <form action="ProductController" method="post">
+        <label for="product_name">Product Name:</label>
+        <input type="text" id="product_name" name="product_name" required><br>
+
+        <label for="model">Model:</label>
+        <input type="text" id="model" name="model" required><br>
+
+        <label for="brand">Brand:</label>
+        <input type="text" id="brand" name="brand" required><br>
+
+        <input type="submit" value="Add Product">
+    </form>
+</body>
+</html>
